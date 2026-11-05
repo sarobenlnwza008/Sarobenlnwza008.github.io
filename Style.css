@@ -1,0 +1,66 @@
+
+/* 1. การตั้งค่าทั่วไปของหน้าเว็บ */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* 2. ส่วนหัว (header) */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+/* 3. ส่วนเนื้อหา (section) */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 4. หัวข้อ (h2) */
+h2 {
+    color: #4CAF50;
+}
+
+/* 5. ส่วนแสดงโปรเจกต์ */
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+/* 6. รายการทักษะ */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* 7. ส่วนท้าย (footer) */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
